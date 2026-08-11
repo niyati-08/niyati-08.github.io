@@ -154,13 +154,11 @@ img {
   margin-left: 12px;
 }
 
-/* "Welcome to the JAIN Lab" — same elegant script, keeps its navy colour */
-.welcome-script {
+/* Only "Jain Lab" inside the welcome heading uses the script; text stays navy */
+.script-name {
   font-family: 'Great Vibes', cursive;
   font-weight: 400;
-  font-size: clamp(44px, 6vw, 68px);
-  line-height: 1.15;
-  letter-spacing: 0.5px;
+  font-size: 1.35em;
 }
 
 .hero h2 {
