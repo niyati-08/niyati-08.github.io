@@ -154,6 +154,15 @@ img {
   margin-left: 12px;
 }
 
+/* "Welcome to the JAIN Lab" — same elegant script, keeps its navy colour */
+.welcome-script {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-size: clamp(44px, 6vw, 68px);
+  line-height: 1.15;
+  letter-spacing: 0.5px;
+}
+
 .hero h2 {
   font-size: 26px;
   font-weight: 400;
