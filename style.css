@@ -253,7 +253,7 @@ img {
 
 /* Rotating molecular structure that replaces the homepage photo */
 .profile-structure {
-  width: clamp(380px, 42vw, 640px);
+  width: clamp(360px, 36vw, 600px);
   max-width: 100%;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -262,9 +262,21 @@ img {
   display: block;
 }
 
+/* Keep structure left + text right on desktop; stack only on narrower screens */
+@media screen and (max-width: 1100px) {
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+  .profile-structure {
+    width: 100%;
+    max-width: 480px;
+  }
+}
+
 .profile-text {
   flex: 1;
-  min-width: 260px;
+  min-width: 0;
   font-size: 18px;
   line-height: 1.8;
   color: var(--muted);
