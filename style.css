@@ -134,28 +134,40 @@ img {
 }
 
 .hero h1 {
-  font-size: 78px;
-  margin: 0 0 14px;
+  font-size: 88px;
+  margin: 0 0 16px;
   font-weight: 700;
-  letter-spacing: 1.5px;
-  line-height: 1.05;
-  background: linear-gradient(105deg, #ffffff 0%, #cfeaf3 40%, #5fb6d1 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
+  letter-spacing: 2px;
+  line-height: 1.0;
+  color: #ffffff;
   display: inline-block;
   animation: heroTitleIn 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* "JAIN" filled solid white with soft depth */
+.hero h1 .solid {
+  color: #ffffff;
+  text-shadow: 0 8px 26px rgba(0, 0, 0, 0.40);
+}
+
+/* "Lab" as hollow, outline-only letters */
+.hero h1 .outline {
+  color: transparent;
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.95);
+  text-stroke: 2px rgba(255, 255, 255, 0.95);
+  font-weight: 600;
+  font-style: italic;
+  margin-left: 6px;
 }
 
 .hero h1::after {
   content: "";
   display: block;
-  width: 96px;
-  height: 5px;
-  margin-top: 18px;
-  border-radius: 6px;
-  background: linear-gradient(90deg, var(--accent), rgba(255, 255, 255, 0));
+  width: 110px;
+  height: 4px;
+  margin-top: 20px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.85);
 }
 
 @keyframes heroTitleIn {
