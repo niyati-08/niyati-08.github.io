@@ -239,7 +239,7 @@ img {
 
 .profile {
   display: flex;
-  gap: 45px;
+  gap: 38px;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -253,7 +253,7 @@ img {
 
 /* Rotating molecular structure that replaces the homepage photo */
 .profile-structure {
-  width: 520px;
+  width: clamp(380px, 42vw, 640px);
   max-width: 100%;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -264,7 +264,7 @@ img {
 
 .profile-text {
   flex: 1;
-  min-width: 280px;
+  min-width: 260px;
   font-size: 18px;
   line-height: 1.8;
   color: var(--muted);
