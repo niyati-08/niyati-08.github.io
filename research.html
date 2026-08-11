@@ -1,97 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Research | JAIN Lab</title>
+<meta name="description" content="Research projects of the JAIN Lab: RNA structural biology, RNA–protein interactions, MALAT1 triple helix, RNA G-quadruplexes, and NMR spectroscopy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 
-<body style="font-family:Arial, Helvetica, sans-serif; margin:0; background-color:#f7f9fb; color:#1f2933;">
+<body>
 
-<div style="background-color:white; padding:18px 45px; border-bottom:1px solid #ddd;">
-<img src="logo.png" width="170">
+<!-- TOP HEADER -->
+<div class="top-header">
+  <a class="logo" href="index.html"><img src="logo.png" alt="JAIN Lab logo"></a>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="research.html" class="active">Research</a>
+    <a href="publications.html">Publications</a>
+    <a href="alumni.html">Lab Members</a>
+    <a href="recreation.html">Beyond the Lab</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 </div>
 
-<div style="background-color:#e8eef5; padding:15px 45px;">
-<a href="index.html">Home</a> |
-<a href="about.html">About</a> |
-<a href="research.html">Research Projects</a> |
-<a href="publications.html">Publications</a> |
-<a href="contact.html">Contact</a>
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <h1>Research Projects</h1>
+  <p>
+    The JAIN Lab focuses on understanding how RNA structure, dynamics, and molecular
+    recognition regulate biological function. We use solution-state NMR spectroscopy,
+    RNA biochemistry, and complementary biophysical approaches to study structured RNAs,
+    RNA–protein interactions, and RNA–ligand recognition.
+  </p>
 </div>
 
-<div style="padding:60px 70px; background-color:white;">
+<!-- MAJOR THEMES -->
+<div class="section white">
+  <h2 class="section-title">Major Research Themes</h2>
+  <div class="card-container">
 
-<h1>Research Projects</h1>
+    <div class="research-card reveal">
+      <h3>RNA Structural Biology</h3>
+      <p>Structural and dynamic characterization of functional RNA motifs, long non-coding RNAs, and regulatory RNA elements.</p>
+    </div>
 
-<p style="font-size:18px; line-height:1.7; max-width:950px;">
-The JAIN Lab focuses on understanding how RNA structure, dynamics, and molecular recognition regulate biological function. We use solution-state NMR spectroscopy, RNA biochemistry, and complementary biophysical approaches to study structured RNAs, RNA–protein interactions, and RNA–ligand recognition.
-</p>
+    <div class="research-card reveal">
+      <h3>RNA–Protein Interactions</h3>
+      <p>Mechanistic studies of RNA recognition by RNA-binding proteins in viral and cellular regulatory systems.</p>
+    </div>
 
-<h2>Major Research Themes</h2>
+    <div class="research-card reveal">
+      <h3>MALAT1 Triple Helix</h3>
+      <p>Investigating structure, stability, ligand interactions, and biological significance of the MALAT1 3′ triple helix.</p>
+    </div>
 
-<div style="display:flex; flex-wrap:wrap; gap:25px;">
+    <div class="research-card reveal">
+      <h3>RNA G-Quadruplexes</h3>
+      <p>Biophysical and structural analysis of RNA G-quadruplex motifs and their interactions with proteins and small molecules.</p>
+    </div>
 
-<div style="background:#f1f5f9; padding:25px; width:300px; border-radius:10px;">
-<h3>RNA Structural Biology</h3>
-<p>Structural and dynamic characterization of functional RNA motifs, long non-coding RNAs, and regulatory RNA elements.</p>
+    <div class="research-card reveal">
+      <h3>NMR Spectroscopy</h3>
+      <p>Application of solution-state NMR spectroscopy to study RNA structure, dynamics, folding, and molecular recognition.</p>
+    </div>
+
+    <div class="research-card reveal">
+      <h3>RNA–Ligand Recognition</h3>
+      <p>Characterization of RNA–small molecule interactions using NMR, ITC, MST, BLI, EMSA, UV melting, and CD spectroscopy.</p>
+    </div>
+
+  </div>
 </div>
 
-<div style="background:#f1f5f9; padding:25px; width:300px; border-radius:10px;">
-<h3>RNA–Protein Interactions</h3>
-<p>Mechanistic studies of RNA recognition by RNA-binding proteins in viral and cellular regulatory systems.</p>
+<!-- APPROACHES + DIRECTIONS -->
+<div class="section">
+  <div style="display:flex; flex-wrap:wrap; gap:50px;">
+
+    <div style="flex:1; min-width:300px;">
+      <h2 class="section-title">Experimental Approaches</h2>
+      <ul style="font-size:17px; line-height:2; color:var(--muted); padding-left:20px;">
+        <li>Solution-state NMR spectroscopy</li>
+        <li>RNA in vitro transcription and purification</li>
+        <li>UV thermal melting and circular dichroism spectroscopy</li>
+        <li>ITC, MST, BLI, EMSA, and fluorescence-based assays</li>
+        <li>RNA mutational analysis and structure–function studies</li>
+        <li>Reporter assays and RNA functional validation</li>
+      </ul>
+    </div>
+
+    <div style="flex:1; min-width:300px;">
+      <h2 class="section-title">Current Directions</h2>
+      <p style="font-size:17px; line-height:1.8; color:var(--muted);">
+        Current projects explore RNA structural dynamics, RNA–protein recognition,
+        non-coding RNA biology, RNA structural motifs in disease pathways, and
+        environmental modulation of RNA structure and function.
+      </p>
+      <p style="margin-top:22px;"><a class="btn" href="publications.html">See Our Publications</a></p>
+    </div>
+
+  </div>
 </div>
 
-<div style="background:#f1f5f9; padding:25px; width:300px; border-radius:10px;">
-<h3>MALAT1 Triple Helix</h3>
-<p>Investigating structure, stability, ligand interactions, and biological significance of the MALAT1 3′ triple helix.</p>
+<!-- FOOTER -->
+<div class="footer">
+  <div class="footer-inner">
+    <div class="links" style="min-width:200px;">
+      <h2>Quick Links</h2>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="alumni.html">Lab Members &amp; Alumni</a>
+      <a href="recreation.html">Beyond the Lab</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div style="max-width:420px;">
+      <h2>Get In Touch</h2>
+      <p style="line-height:1.9;">
+        Dr. Niyati Jain<br>
+        Assistant Professor (Research)<br>
+        Faculty In-charge, NMR Facility<br>
+        Ashoka University<br><br>
+        <a href="mailto:Niyati.jain@ashoka.edu.in">Niyati.jain@ashoka.edu.in</a>
+      </p>
+    </div>
+  </div>
 </div>
 
-<div style="background:#f1f5f9; padding:25px; width:300px; border-radius:10px;">
-<h3>RNA G-Quadruplexes</h3>
-<p>Biophysical and structural analysis of RNA G-quadruplex motifs and their interactions with proteins and small molecules.</p>
-</div>
+<div class="copyright">© 2026 JAIN Lab. All Rights Reserved.</div>
 
-<div style="background:#f1f5f9; padding:25px; width:300px; border-radius:10px;">
-<h3>NMR Spectroscopy</h3>
-<p>Application of solution-state NMR spectroscopy to study RNA structure, dynamics, folding, and molecular recognition.</p>
-</div>
-
-<div style="background:#f1f5f9; padding:25px; width:300px; border-radius:10px;">
-<h3>RNA–Ligand Recognition</h3>
-<p>Characterization of RNA-small molecule interactions using NMR, ITC, MST, BLI, EMSA, UV melting, and CD spectroscopy.</p>
-</div>
-
-</div>
-
-<br><br>
-
-<h2>Experimental Approaches</h2>
-
-<ul style="font-size:18px; line-height:1.8;">
-<li>Solution-state NMR spectroscopy</li>
-<li>RNA in vitro transcription and purification</li>
-<li>UV thermal melting and circular dichroism spectroscopy</li>
-<li>ITC, MST, BLI, EMSA, and fluorescence-based assays</li>
-<li>RNA mutational analysis and structure-function studies</li>
-<li>Reporter assays and RNA functional validation</li>
-</ul>
-
-<h2>Current Directions</h2>
-
-<p style="font-size:18px; line-height:1.7; max-width:950px;">
-Current projects explore RNA structural dynamics, RNA-protein recognition, non-coding RNA biology, RNA structural motifs in disease pathways, and environmental modulation of RNA structure and function.
-</p>
-
-<p>
-<a href="index.html">Back to Home</a>
-</p>
-
-</div>
-
-<div style="background-color:#0b2d4d; color:white; padding:35px 70px;">
-<p>© 2026 JAIN Lab. All Rights Reserved.</p>
-</div>
-
+<script src="main.js"></script>
 </body>
-
 </html>
