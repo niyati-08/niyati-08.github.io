@@ -253,7 +253,10 @@ img {
 
 /* Rotating molecular structure that replaces the homepage photo */
 .profile-structure {
-  width: clamp(360px, 36vw, 600px);
+  width: clamp(360px, 38vw, 640px);
+  aspect-ratio: 5 / 5;
+  object-fit: cover;
+  object-position: center;
   max-width: 100%;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
