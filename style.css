@@ -251,6 +251,17 @@ img {
   flex-shrink: 0;
 }
 
+/* Rotating molecular structure that replaces the homepage photo */
+.profile-structure {
+  width: 390px;
+  max-width: 100%;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  flex-shrink: 0;
+  background: #ffffff;
+  display: block;
+}
+
 .profile-text {
   flex: 1;
   min-width: 280px;
