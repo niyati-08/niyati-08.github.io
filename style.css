@@ -134,10 +134,33 @@ img {
 }
 
 .hero h1 {
-  font-size: 58px;
-  margin: 0 0 12px;
-  color: white;
-  letter-spacing: -0.5px;
+  font-size: 78px;
+  margin: 0 0 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 1.05;
+  background: linear-gradient(105deg, #ffffff 0%, #cfeaf3 40%, #5fb6d1 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  display: inline-block;
+  animation: heroTitleIn 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hero h1::after {
+  content: "";
+  display: block;
+  width: 96px;
+  height: 5px;
+  margin-top: 18px;
+  border-radius: 6px;
+  background: linear-gradient(90deg, var(--accent), rgba(255, 255, 255, 0));
+}
+
+@keyframes heroTitleIn {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 .hero h2 {
