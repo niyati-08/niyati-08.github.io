@@ -253,7 +253,7 @@ img {
 
 /* Rotating molecular structure that replaces the homepage photo */
 .profile-structure {
-  width: 390px;
+  width: 520px;
   max-width: 100%;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
