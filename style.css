@@ -548,6 +548,19 @@ img {
   color: white;
 }
 
+/* Social links inside the dark footer: blend with the navy background */
+.footer .social-links a {
+  background: rgba(255, 255, 255, 0.10);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.footer .social-links a:hover {
+  background: #ffffff;
+  color: var(--navy);
+  text-decoration: none;
+}
+
 /* -------------------- FOOTER -------------------- */
 
 .footer {
