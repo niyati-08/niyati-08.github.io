@@ -285,6 +285,10 @@ img {
   color: var(--muted);
 }
 
+.profile-text p {
+  text-align: justify;
+}
+
 .profile-text h2 {
   color: var(--navy);
   margin-top: 0;
